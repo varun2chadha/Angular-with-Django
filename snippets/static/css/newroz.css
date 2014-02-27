@@ -1,850 +1,127 @@
 
-p.Login {
-    text-align: right;
-}
-a{
-    text-decoration: none;
-}
-
-body{
-    margin : 0 10px;
-}
-
-table
-{
-    border-color: #ffffff;
-    border-width: 1px;
-    border-style: solid;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style-type: none
-}
-
-div.img {
-    margin: 2px;
-    height: auto;
-    width: auto;
-    float: left;
-}
-
-.header_con {
-    height: 110px;
-}
-
-.align_right {
-    float: right;
-}
-
-.align_left {
-    float: left;
-}
-
-.header_link {
-    width: 100px;
-}
-
-.header_list {
-    background-color: lightBlue;
-    text-align: center;
-}
-
-.header_nav{
-	padding-top:10px;
-}
-
-.right_con {
-    float: right;
-}
-
-.left_con {
-    float: left;
-}
-
-div.cust_info {
-    padding: 10px 10px 5px 15px;
-    border: 5px white;
-    margin: 0px;
-    background-color: white;
-    border-radius: 20px;
-    margin-bottom: 5px;
-    font-size:14px;
-}
-
-.account_info{
-    padding: 10px 10px 5px 15px;
-    border: 5px white;
-    margin: 0px;
-    background-color: white;
-    border-radius: 20px;
-    font-size:14px;
-
-}
-
-.right {
-    position: absolute;
-    right: 0px;
-    width: 300px;
-    background-color: #C0C0C0;
-
-}
-.align_center{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logout_btn{
-    background-color: indigo;
-    color: white;
-    font-weight: bold;
-    height: 30px;
-}
 
 body {
     background-color: #eee;
-    font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
-}
-
-#globalnav {
-    position: relative;
-    margin: 0;
-    list-style: none;
-    line-height: 1em;
-    font-size:13px;
-
-}
-
-#globalnav LI {
-    float: left;
-    margin: 0;
-    padding: 0;
-	line-height : 25px;
-}
-
-#globalnav A {
-    display: block;
-    color: #F5DEB3;
-    text-decoration: none;
-    font-weight: bold;
-    background: #9370D8;
-    margin: 0;
-    padding: 0.25em 1em;
-    border-left: 1px solid #fff;
-    border-top: 1px solid #fff;
-    border-right: 1px solid #aaa;
-}
-
-#globalnav A:hover,#globalnav A:active,#globalnav A.here:link,#globalnav A.here:visited
-{
-    background: #4B0082;
-}
-
-#globalnav A.here:link,#globalnav A.here:visited {
-    position: relative;
-    z-index: 102;
-}
-
-/*subnav*/
-#globalnav UL {
-    position: absolute;
-    left: 0;
-    top: 1.5em;
-    float: left;
-    background: #4B0082;
-    width: 100%;
-    margin: 0;
-    padding: 0.25em 0.25em 0.25em 1em;
-    list-style: none;
-    border-top: 1px solid #fff;
-}
-
-#globalnav UL LI {
-    float: left;
-    display: block;
-    margin-top: 1px;
-}
-
-#globalnav UL A {
-    background: #4B0082;
-    color: #FFFFFF;
-    display: inline;
-    margin: 0;
-    padding: 0 1em;
-    border: 0
-}
-
-#globalnav UL A:hover,#globalnav UL A:active,#globalnav UL A.here:link,#globalnav UL A.here:visited
-{
-    color: #444;
-}
-
-.customer_profile {
-    #display: inline-block;
-}
-.cust_con{
-    height:400px;
-}
-.profile_summary {
-    padding: 10px 10px 0px 15px;
-    border: 5px white;
-    margin: 0px;
-    background-color: white;
-    border-radius: 20px;
-    margin-left: 8px;
-	margin-top:10px;
-	margin-bottom:10px;
-    font-family: arial;
-    height: 369px;
-
-}
-
-.profile1_summary{
-	background-color: #fff;
-	padding: 15px;
-	border-radius: 10px;
-	margin: 12px 0px;
-}
-.profile_con{
-    width: 75%;
-}
-.cust_left_con{
-    width:25%;
-}
-.mobile_nav{
-    display:none;
-}
-
-
-.login_text{
-    color:indigo;
-    font-size: 14px;
-}
-.log_text{
-    color:black;
-    font-size: 12px;
-}
-.table_text{
-    color:black;
-    background-color:#C0C0C0;
-    width:100%;
-    font-size:12px;
-}	
-
-
-
-.pro_text{
-    color:black;
-}	
-.gen_text{
-    color:black;
-    font-size: 19px;
-
-}	
-.general_text{
-    color:black;
-    font-family:Arial Black;
-    padding:83px;
-}	
-.logout_text{
-    color:#FFFFFF;
-}
-.gen_nav_text{
-    color:purple;
-    font-family:Arial;
-    padding:5px;
-    font-size:10px;
-}	
-.font_text{
-    color:#616D7E;
-    font-size:12px;
-}
-.color_text{
-    color:black;
-}
-
-.table1_text{
-    color:white;
-    background-color:#808080; 
-
-}	
-.table2_text{
-    color:black;
-    background-color:#C0C0C0;
-
-}	
-
-
-.logo_img{
-    background:  url(./img/Aricent_logo.jpg) no-repeat;
-}
-
-.lifecyc-img{
-    height:9px; 
-    width:9px;
-}
-
-.sub_header{
-    font-size: 14px;
-    font-weight:bold;
-}
-.fnd_Others_con{
-    margin-top: 15px;
-    font-size:14px;
-}
-.top_5_space{
-    margin-top: 5px;
-}
-.page_header{
-    margin: 15px 0px;
-    font-weight: bold;
-    font-size: 19px;
-    background-color: #7E3DAD;
-    color: white;
-    height: 45px;
-    padding-top: 5px;
-    padding-left: 5px;
-    border-radius: 10px;
-	line-height : 35px;
-}
-
-.txt_align_rh{
-    text-align: right;
-}
-
-#tbl_cust_info td, #tbl_cust_acc td{
-    width:38%;
-}
-#tbl_cust_info , #tbl_cust_acc{
-    width: 100%;
-}
-.bottom_space_5{
-    margin-bottom:5px;
-}
-.thick_text{
-    font-weight:bold;
-    font-size:12px;
-}	
-
-
-html,  div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
-p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
-img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figure, figcaption, hgroup, 
-menu, footer, header, nav, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-article, aside, canvas, figure, figure img, figcaption, hgroup,
-footer, header, nav, section, audio, video {
-    display: block;
-}
-
-a img {border: 0;}
-
-
-
-/*	Typography presets
-        ------------------	*/
-
-.gigantic {
-    font-size: 110px;
-    line-height: 120px;
-    letter-spacing: -2px;
-}
-
-.huge, h1 {
-    font-size: 68px;
-    line-height: 72px;
-    letter-spacing: -1px;
-}
-
-.large, h2 {
-    font-size: 42px;
-    line-height: 48px;
-}
-
-.bigger, h3 {
-    font-size: 26px;
-    line-height: 36px;
-}
-
-.big, h4 {
-    font-size: 22px;
-    line-height: 30px;
-}
-
-
-.small, small {
-    font-size: 13px;
-    line-height: 18px;
-}
-
-
-/* Accountant consultancy */
-.profile1_summary
-{
-	padding: 10px 10px 0px 15px;
-	border: 5px white;
-	background-color: white;
-	border-radius: 20px;
-	font-family: arial;
-	margin-bottom: 10px;
-	margin-top:10px;
-}
-.background3_text {
-	width: 100%;
-	background-color: #C0C0C0;
-}
-
-.table3_text {
-	width: 90%;
-	margin-bottom: 14px;
-}
-
-.background4_text {
-	width: 80%;
-	background-color: #C0C0C0;
-	margin-top: 65px;
-}
-
-.color_data {
-	font-size: 10px;
-	color: #7E3DAD;
-}
-
-.table5_text {
-	color: black;
-	background-color: #C0C0C0;
-	width: 80%;
-}
-
-.table6_text {
-	width: 80%;
-	color: grey;
-	font-size: 12px;
-	background-color: white;
-}
-
-.background5_text {
-	font-size: 14px;
-	width: 80%;
-	background-color: #C0C0C0;
-	margin-top: 40px;
-}
-
-.aligning1_text {
-	width: 100%;
-	
-}
-
-.background6_text {
-	color: black;
-	font-size: 14px;
-	margin-top: 342px;
-	padding-bottom: 10px;
-	padding-top: 70px;
-}
-
-.background7_text {
-	color: grey;
-	background-color: white;
-	width: 40%;
-	font-size: 12px;
-	padding-right: 45px;
-}
-
-.background8_text {
-	color: black;
-	font-size: 14px;
-	margin-top: 40px;
-	padding-bottom: 10px;
-}
-
-.background9_text {
-	color: black;
-	font-size: 14px;
-	margin-top: 10px;
-}
-
-.bold_text {
-	font-weight: bolder;
-	font-size: 14px;
-	padding-bottom: 5px;
-}
-
-.parent {
-	position: relative;
-}
-
-.a {
-	position: absolute;
-	width: 50%;
-	height: 362px;
-	z-index: 0;
-	border: 2px purple solid;
-	margin-top:15px;
-}
-
-.b {
-	position: absolute;
-	z-index: 210;
-	left: 65px;
-	top: 6px;
-}
-
-.child {
-	position: relative;
-}
-
-.a1 {
-	position: absolute;
-	width: 47%;
-	height: 200px;
-	z-index: 0;
-	border: 2px black solid;
-	margin-top: 15px;
-	left: 52%;
-}
-
-.b1 {
-	position: absolute;
-	z-index: 210;
-	right: 88px;
-	top:7px;
-}
-
-.padding1_data {
-	padding-top: 10px;
-}
-
-.bolder_text {
-	color: grey;
-	padding-top: 20px;
-	font-size: 12px;
-}
-
-.bolder1_text {
-	color: grey;
-	padding-top: 20px;
-	width: 80%;
-}
-
-.table7_text {
-	color: black;
-	background-color: #C0C0C0;
-	width: 80%;
-	margin-top: 15px;
-}
-
-.padding2_data {
-	padding-left: 19px;
-}
-
-
-  .button_color{
-	
-	 background-color:#7E3DAD;
-	 color:white;
-    }
-    .tablen_text{
-	 color:black;
-	 background-color:#e6a9e7;
-}
-  .aligningn_text {
-	margin-top:20px;
-	
-}
-.paddingn_data {
-	padding-right:23px;
-}
-.paddingm_data {
-	padding-right:40px;
-}
-.fontm_text {
-	font-weight: bolder;
-	font-size: 14px;
-	padding-bottom: 5px;
-        font-style:italic;
-}
-
-/* End of Account consultancy*/
-/* Selection colours (easy to forget) */
-
-::selection 	 	{background: rgb(255,255,158);}
-::-moz-selection 	{background: rgb(255,255,158);}
-img::selection 		{background: transparent;}
-img::-moz-selection	{background: transparent;}
-body {-webkit-tap-highlight-color: rgb(255,255,158);}
-
-
-
-/*		Default Layout: 992px. 
-                Gutters: 24px.
-                Outer margins: 48px.
-                Leftover space for scrollbars @1024px: 32px.
--------------------------------------------------------------------------------
-cols    1     2      3      4      5      6      7      8      9      10
-px      68    160    252    344    436    528    620    712    804    896    */
-
-body {
-
-    color: rgb(60,60,60);
-    -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
-}
 
-
-
-/*		Tablet Layout: 768px.
-                Gutters: 24px.
-                Outer margins: 28px.
-                Inherits styles from: Default Layout.
------------------------------------------------------------------
-cols    1     2      3      4      5      6      7      8
-px      68    160    252    344    436    528    620    712    */
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
 }
-
-
-
-/*		Mobile Layout: 320px.
-                Gutters: 24px.
-                Outer margins: 34px.
-                Inherits styles from: Default Layout.
----------------------------------------------
-cols    1     2      3
-px      68    160    252    */
-
-@media only screen and (max-width: 767px) {
-
-    body{
-        margin : 0px 4px;
-    }
-
-    div.cust_info {
-        width: 94%;
-        margin: 0px 2px 4px 2px;
-        background-color: white;
-        border-radius: 10px;
-        padding: 10px 10px 5px 15px;
-        border: 0px white;
-        font-size: 12px;
-    }
-    .account_info{
-        margin: 0px 2px 4px 2px;
-        border-radius: 10px;
-        font-size:12px;
-        width: 94%;
 
-    }
-    .profile_summary {
-        width: 100%;
-        margin: 8px 2px 13px 2px;
-        background-color: white;
-        border-radius: 10px;
-        font-size:14px;
-        padding: 10px 8px 12px 8px;
+/** Responsive CSS**/
 
-    }
+@media (max-width: 768px) {
 
- /*   .mobile_nav{
-        display:block;
-        width: 100%;
-        margin-top: 30px;
+    .myResponsive p{
         margin-bottom: 5px;
-        background-color: indigo;
-        height: 30px;
-    } */
-    .main_nav{
-        width: 31%;
+        font-size: 10px ; 
+        line-height: 1.4;
     }
-    .sub_nav{
-        width: 31%;
-    }
-
-    .login_text{
-        font-size: 11px;
-
-    }
-    .header_con{
-        height: 90px;
+    .myResponsive strong p{
+        margin-bottom: 5px;
+        font-size: 12px ; 
+        line-height: 1.4;
+        margin-top:30px;
     }
 
-    .log_text{
-        font-size: 11px;
-    }
-    .table_text{
-        font-size:9px;
-    }	
-    .pro_text{
-        font-size: 12px;
-    }
-    .gen_text{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .logout_text{
-        font-size: 11px;
-    }
-    .font_text{
-        font-size: 12px;
-    }	
-    .color_text{
-        font-family:Arial black;
-
-    }
-    .table1_text{
-        font-size:10px;
-        width:9px;
-    }	
-    .table2_text{
-        font-size:9px;
-        width:9px;
-    }
-    .table3_text{
-        font-size:10px;
-        width:52px;
-    }	
-
-    .cust_left_con{
-        width:98%;
+    .myResponsive .table_data{
+        
+        font-size: 10px; 
+ 
     }
 
-    .profile_con{
-        width:100%;
-    }
-    .cust_con{
-        height: auto;
-    }
-    .footer_con{
-        text-align: center;
-        background-color: #96F;
-        height: 30px;
-        display: inline-block;
-        width: 100%;
-        border-radius: 10px;
-    }
-    .hide_menu{
-        top: 0px; 
-        display: none; 
-        #height: 200px;
-    }
-    .menu{
-        background-color: mediumPurple;
-        height: 26px;
-        margin:2px 0px 2px 1px;
-        width: 49%;
-        display: inline-block;
-        font-size:13px;
-        color:white;
-        text-align:center;
-        font-weight: bold;
-        border-radius: 10px;
-    }
-    .sub_header {
-        font-size: 13px;
-        font-weight: bold;
-    }
-    .top_pad_3{
-        padding-top: 3px;
-    }
-    #genMenuBox{
-        background-color: #9370DB;
-        width: 47%;
-        font-size: 13px;
-        z-index: 600;
-        position: absolute;
-        margin-top: 158px;
-    }
-    #accMenuBox{
-        background-color: mediumPurple;
-        width: 47%;
-        font-size: 13px;
-        z-index: 600;
-        position: absolute;
-        margin-top: 158px;
-        margin-left: 48.6%;
 
+
+}
+@media (min-width: 768px){
+
+    .myResponsive p{
+        margin-bottom: 10px;
+        font-size: 15px; 
+        line-height: 2;
+    }
+    .myResponsive .table_data{
+        
+        font-size: 15px; 
+ 
     }
 
-    #genMenuBox  li a, #accMenuBox li a {
-        color : white;
-        text-decoration: none;
-        font-weight: bold
-    }
-
-    #accMenuBox li, #genMenuBox  li{
-        height:25px;
-        padding-left:5px;
-        padding-top:5px;
-        border-bottom: 1px solid #510AE4;
-    }	
-    .legal{
-        color:white;
-        padding-top: 6px;
-        font-size: 10px;
-    }
-    .color_text{
-        font-size: 13px;
-    }  
-    .color1_text{
-        font-size: 13px;
-    }  
-    .color3_text{
-        font-size: 13px;
-    } 
+.Body {
+    margin-top: 40px;
+    padding-top: 15px;
+}
 
 }
 
 
+.view1 {
+  margin-top: 45px;
+  background-color: #eee;
+  padding-bottom: 0px;
+}
 
-/*		Wide Mobile Layout: 480px.
-                Gutters: 24px.
-                Outer margins: 22px.
-                Inherits styles from: Default Layout, Mobile Layout.
-------------------------------------------------------------
-cols    1     2      3      4      5
-px      68    160    252    344    436    */
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-
-    body {
-     
+.form-signin {
+  max-width: 330px;
+  padding-top: -30px;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-bottom: 40px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.table-nonfluid {
+   width: auto;
+}
+.customerInfo .well {
+        border-radius: 9px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
+   .customerDetails {
+      margin-top: 50px;
+   }
+
+    .customerDetails span{
+        padding-right:  10px;
+    }
+
+    .subscriberSelecteion {
+        margin-top: -20px;
+    }
+    .dropdown-manual {
+   background-color: #000;
+   color:#fff;
+}
+ul .dropdown-manual li a {
+   color:#fff;
 }
 
-/* *********************** less framework ends ************** */
-
-
-
-/* *********************** footer css starts ************** */
-
-.footer_con{
-    text-align: center;
-    background-color: #96F;
-    height: 30px;
-    border-radius: 10px;
+.dropdown-manual {
+  background-color: #000;
+  color:#fff;
 }
-.legal{
-    color:white;
-    padding-top: 6px;
-    font-size: 12px;
-}
-.legal a:visited{
-    color:white;
-}
-.legal a:link{
-    color:white;
-}
-
-
-/* *********************** footer css ends ************** */
