@@ -1,0 +1,72 @@
+{
+	"personal_info" : {
+			"header" : "Personal Information",
+			"Personal_Details" : {
+				"customer_name" : "Albert Robert",
+				"Address" : "LA Salt Lake City",
+				"Connection" : "GSM",
+				"Account_no" : "12345"
+			}
+	},
+
+	"DropDown_1" : [
+		{
+			"Button_Name" : "one",
+			"Button_Link" : ""
+		},
+		{
+			"Button_Name" : "two",
+			"Button_Link" : ""
+		}
+	],
+
+	"DropDown_2" : [
+		{
+			"Button_Name" : "one",
+			"Button_Link" : ""
+		},
+		{
+			"Button_Name" : "two",
+			"Button_Link" : ""
+		}
+	],
+
+	"update_button" : {
+		"Name" :  "Update",
+		"Link" : ""
+	},
+
+	"Account_info" : {
+		"header" : "Account Details",
+		"Button_list" : [
+			{
+				"Name" : "Account",
+				"Link" : ""	
+			},
+			{
+				"Name" : "Subscribe",
+				"Link" : ""	
+			},
+			{
+				"Name" : "Navigate",
+				"Link" : ""	
+			}
+		],
+		"Details" : {
+			"Account" : {
+				"number" : "12345"
+			},
+			"customer" : {
+				"name" : "robert_albert"
+			},
+			"Activated" : {
+				"header" : "Activated On",
+				"date"    : "22/10/13"
+			},
+			"status" : {
+				"header" : "status",
+				"data"   : "new" 
+			}
+		}
+	}
+}

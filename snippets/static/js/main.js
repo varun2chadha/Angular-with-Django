@@ -1,0 +1,2 @@
+require(["/static/lib/jquery_min","/static/lib/bootstrap","/static/lib/angular","/static/newroz","/static/newrozcmpt","/static/controller"],function(jquery_min,bootstrap,angular,newroz,newrozcmpt,controller){
+});

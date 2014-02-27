@@ -1,0 +1,79 @@
+<div class="row" ng-controller="customerController" >
+	<div class="col-md-4">
+	<div class="jumbotron span3 myResponsive">
+	<div class="row">
+			<span><strong><p>{{ data.CustomerProfile.category1.name}}</p></strong></span>
+		
+	</div>
+	<div class="table-responsive">
+		<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+			<tbody>
+
+				
+					<tr class="table_data" ng-repeat = "user in data.CustomerProfile.category1.details">
+						<td>{{ (user.name) }}</td>
+						<td>{{ (user.value) }}</td>
+					</tr>
+			</tbody>
+		</table>
+	</div>
+
+</div>
+
+
+<div class="jumbotron span3 myResponsive">
+	<span><strong><p>{{ (data.CustomerProfile.category2.name)  }}</p></strong></span>
+
+
+	<div class="table-responsive">
+		<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+			<tbody>
+			
+					<tr class="table_data" ng-repeat="user in data.CustomerProfile.category2.details">
+						<td>{{ (user.name) }}</td>
+						<td>{{ (user.value) }}</td>
+
+					</tr>
+     
+			</tbody>
+		</table>
+	</div>
+</div>
+</div>
+
+<div class="col-md-8">
+	<div class="jumbotron span3 myResponsive">
+		<div class="row">
+			<span><strong><p>{{ (data.CustomerProfile.category3.name)  }}</p></strong></span>
+		</div>
+	<div class="table-responsive">
+		<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+			<thead>
+				<tr class="table_data" >
+					
+						<th ng-repeat="user in data.CustomerProfile.category3.details">{{ (user.name) }}</th>
+
+				
+       
+        		</tr>
+			</thead>
+
+			<tbody>
+				
+					<tr class="table_data" ng-repeat="user in data.CustomerProfile.category3.details1">
+						<td>{{ (user.name) }}</td>
+						<td>{{ (user.value) }}</td>
+						<td>{{ (user.value1) }}</td>
+						<td>{{ (user.value2) }}</td>
+						<td>{{ (user.value3) }}</td>
+						<td>{{ (user.value4) }}</td>
+						<td>{{ (user.value5) }}</td>
+					</tr>
+      
+			</tbody>
+		</table>
+	</div>
+
+</div>
+</div>
+</div>

@@ -1,0 +1,31 @@
+
+    {
+        "Company_Name": "Newroz", 
+        "Tab_Details": [
+            {
+                "Tab_Name": "Rating Plan", 
+                "Tab_Link": "#/ratingPlan", 
+                "Class": "active"
+            }, 
+            {
+                "Tab_Name": "General Information", 
+                "Tab_Link": "#/generalInformation", 
+                "Class": "NA"
+            }, 
+            {
+                "Tab_Name": "Contact", 
+                "Tab_Link": "#/contact", 
+                "Class": "NA"
+            }
+        ], 
+        "DropDown_Details": [
+            {
+                "Tab_Name": "Logout", 
+                "Tab_Link": "#"
+            }, 
+            {
+                "Tab_Name": "Refresh", 
+                "Tab_Link": "#/Refresh"
+            }
+        ]
+    }

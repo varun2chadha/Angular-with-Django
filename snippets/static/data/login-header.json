@@ -1,0 +1,16 @@
+{
+	"Company"  : "NewRoz",
+
+	"DropDown_Buttons" : [
+		{
+			"Button_Name" : "LTR"
+
+		},
+		{
+			"Button_Name" : "RTL"
+	
+		}
+
+
+	]
+}

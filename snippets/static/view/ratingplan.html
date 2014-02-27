@@ -1,0 +1,83 @@
+
+<div class="jumbotron span3 myResponsive" ng-controller = "ratinPlanCtrl" >
+	<div class="row">
+		<div class="span12">
+			<span><strong><p>{{ data.Rating_Plan.Header }}</p></strong></span>
+		</div> 
+	</div>
+
+	<div><p>{{ (data.Rating_Plan.Description) }}</p></div>
+	<div><strong><p>{{ (data.Accounts.Header) }}</p></strong></div>
+
+	<div class="table-responsive">
+		<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+			<thead>
+				<tr class="table_data">
+					
+					<th ng-repeat="data in data.Accounts.Header_TabName">{{ (data.Name) }}</th>
+				
+				</tr>
+			</thead>
+
+			<tbody>
+				
+				<tr class="table_data" ng-repeat="data in data.Accounts.Details">
+					<td><a href="#">{{ (data.ID) }}</a></td>
+					<td>{{ (data.Card_Number) }}</td>
+					<td>{{ (data.Profile) }}</td>
+					<td><a> <img src="../img/colour_green_button.png" style="">
+					</a> {{ (data.Life_Cycle) }}</td>
+					<td>{{ (data.End_Activity) }}</td>
+					<td>{{ (data.End_Inactiviy) }}</td>
+					<td>{{ (data.Balance) }}</td>
+				</tr>
+								
+			</tbody>
+		</table>
+	</div>
+
+	<div>
+		<div>
+			<span class="colorn_text"><strong><p>{{ (data.Rating_plan_info.Header) }}</p></strong></span>
+
+		</div>
+		<div class="alignment_text">
+			<div class="paddingw_data">
+				<span><p>{{ (data.Rating_plan_info.info) }}<p></span>
+			</div>
+			<div class="fontn_text"><p>{{ (data.Change_plan_info.Header1) }}</p></div>
+			<div class="log_text table_text" style="margin-top: 12px;"><p>{{ (data.Change_plan_info.Header2) }}</p></div>
+
+			<div class="table-responsive">
+				<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+					<thead>
+						<tr class="table_data">
+							
+							<th ng-repeat="data in data.Change_plan_info.Tab_Header ">{{ (data.Name) }}</th>
+						
+						</tr>
+					</thead>
+					<tbody>
+						
+						<tr class="table_data" ng-repeat="data in data.Change_plan_info.Details">
+						<td>
+							<div class="radio">
+								<label>
+									<input type="radio" name="{{ data.Rating_plan_description }}" id="{{ data.Rating_plan_description }}" value="{{ data.Rating_plan_description }}" /> {{ (data.Rating_plan_description) }}
+								</label>
+							</div>
+						</td>
+						<td>{{ (data.Rating_plan_index) }}</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+
+			<div>
+				<button class="btn btn-primary">Apply</button>
+			</div>
+
+		</div>
+	</div>
+</div>

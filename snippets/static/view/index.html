@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html ng-app="mycomponent">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<link href="../css/bootstrap.min.css" type="text/css" 	rel="stylesheet" />
+	<link href="../css/newroz.css" type="text/css" rel="stylesheet" />
+	<!-- <link href="/newroz/css/accountconsultation.css" type="text/css" rel="stylesheet" />
+	<link href="/newroz/css/bundlepurchase.css" type="text/css" rel="stylesheet" />
+	<link href="/newroz/css/geteventhistory.css" type="text/css" rel="stylesheet" />
+	<link href="/newroz/css/languagemodification.css" type="text/css" rel="stylesheet" />
+	<link href="/newroz/css/managefriends.css" type="text/css" rel="stylesheet" />
+	<link href="/newroz/css/managesubscription.css" type="text/css" rel="stylesheet" />
+	<link href="/newroz/css/peertopeer.css" type="text/css" rel="stylesheet" />
+	<link href="/newroz/css/ratingplan.css" type="text/css" rel="stylesheet" /> -->
+	
+	<meta xmlns="http://www.w3.org/1999/xhtml"
+		content="initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"
+		name="viewport">
+<!-- <script src="../js/lib/jquery.js" type="text/javascript"></script>
+	<script src="/newroz/js/lib/angular.js" type="text/javascript"></script>
+	<script src="../js/lib/bootstrap.js" type="text/javascript"></script>
+	<script src="/newroz/js/newrozcmpt.js" type="text/javascript"></script>
+	<script src="/newroz/js/newrozservices.js" type="text/javascript"></script>
+	<script src="/newroz/js/controller.js" type="text/javascript"></script>
+	<script src="/newroz/js/newroz.js" type="text/javascript"></script> -->
+
+</head>
+
+<body ng-controller="customerController">
+	<headernav></headernav>
+
+	<!-- page body -->
+	<div id="main">
+		<!-- angular templating -->
+		<!-- this is where content will be injected -->
+		<div ng-view></div>
+	</div>
+
+	<!-- footer start -->
+	<footernav></footernav>
+	
+
+	<!-- footer end -->
+    	<div style="display: none">
+		<!-- <script data-main="/newroz/js/main" src="/newroz/js/lib/require.js"></script> -->
+		<script src="../js/lib/jquery.js" type="text/javascript" > </script>
+		<script src="../js/lib/bootstrap.js" type="text/javascript" > </script>
+		<script src="../js/lib/angular.js" type="text/javascript" > </script>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script> -->
+		<script src="../js/newroz.js" type="text/javascript" >	</script>
+		<script src="../js/newrozcmpt.js" type="text/javascript"> </script>
+		<script src="../js/controller.js" type="text/javascript" >	</script>
+		
+	</div> 
+
+
+</body>
+</html>

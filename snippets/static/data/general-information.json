@@ -1,0 +1,122 @@
+{
+    "Rating_Plan": {
+        "Header": "Rating Plan",
+        "Description": "Select an account to consult and modify and Rating Plan"
+    },
+    "Accounts": {
+        "Header": "Accounts",
+        "Header_TabName": [
+            {
+                "Name": "Id"
+            },
+            {
+                "Name": "Card No."
+            },
+            {
+                "Name": "Profile"
+            },
+            {
+                "Name": "Life Cycle"
+            },
+            {
+                "Name": "End Activity"
+            },
+            {
+                "Name": "End Inactivity"
+            },
+            {
+                "Name": "Balance"
+            }
+        ],
+        "Details": [
+            {
+                "ID": "f0425",
+                "Card_Number": "12345",
+                "Profile": "Postpaid",
+                "Life_Cycle": "Active",
+                "End_Activity": "25/07/2011",
+                "End_Inactiviy": "25/07/2012",
+                "Balance": "1536"
+            },
+            {
+                "ID": "f0425",
+                "Card_Number": "12345",
+                "Profile": "Postpaid",
+                "Life_Cycle": "Active",
+                "End_Activity": "25/07/2011",
+                "End_Inactiviy": "25/07/2012",
+                "Balance": "1536"
+            },
+            {
+                "ID": "f0425",
+                "Card_Number": "12345",
+                "Profile": "Postpaid",
+                "Life_Cycle": "Active",
+                "End_Activity": "25/07/2011",
+                "End_Inactiviy": "25/07/2012",
+                "Balance": "1536"
+            },
+            {
+                "ID": "f0425",
+                "Card_Number": "12345",
+                "Profile": "Postpaid",
+                "Life_Cycle": "Active",
+                "End_Activity": "25/07/2011",
+                "End_Inactiviy": "25/07/2012",
+                "Balance": "1536"
+            },
+            {
+                "ID": "f0425",
+                "Card_Number": "12345",
+                "Profile": "Postpaid",
+                "Life_Cycle": "Active",
+                "End_Activity": "25/07/2011",
+                "End_Inactiviy": "25/07/2012",
+                "Balance": "1536"
+            },
+            {
+                "ID": "f0425",
+                "Card_Number": "12345",
+                "Profile": "Postpaid",
+                "Life_Cycle": "Active",
+                "End_Activity": "25/07/2011",
+                "End_Inactiviy": "25/07/2012",
+                "Balance": "1536"
+            }
+        ]
+    },
+    "Rating_plan_info": {
+        "Header": "Rating Plan for account f06425",
+        "info": "Current Rating Plan:RAT_IDX_PROF_4"
+    },
+    "Change_plan_info": {
+        "Header_1": "Select the Rating Plan You want to Apply",
+        "Header_2": "Rating Plan",
+        "Tab_Header": [
+            {
+                "Name": "Rating Plan Description"
+            },
+            {
+                "Name": "Rating Plan Index"
+            }
+        ],
+        "Details": [
+            {
+                "Rating_plan_description": "RAT_IDX_PROF_1",
+                "Rating_plan_index": "1"
+            },
+            {
+                "Rating_plan_description": "RAT_IDX_PROF_2",
+                "Rating_plan_index": "2"
+            },
+            {
+                "Rating_plan_description": "RAT_IDX_PROF_3",
+                "Rating_plan_index": "3"
+            },
+            {
+                "Rating_plan_description": "RAT_IDX_PROF_4",
+                "Rating_plan_index": "4"
+            }
+        ]
+    }
+}

@@ -1,0 +1,58 @@
+ <div ng-controller = "tabController">
+ <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">{{ (data.Company) }}</div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav"  ng-repeat="data in data.Tab_Details" >
+            
+            <li  class = "tabs {{data.Class}}"><a href={{data.Tab_link}}> {{ (data.Tab_name) }}</a></li>
+           
+          </ul>
+          
+          <div class="nav navbar-nav pull-right">
+            
+      
+               <li class="dropdown">
+                  <a id="dLabel" role="button" data-toggle="dropdown" data-target="#">
+                  More<span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                     <li ng-repeat="data in data.DropDown_Buttons"><a href={{data.Button_Link}}> {{data.Button_Name}}</a></li>
+                  </ul>
+               </li>
+            
+                <li class="dropdown">
+                  <a id="dLabel" role="button" data-toggle="dropdown" data-target="#">
+                  LTR/RTL Preferences<span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                     <li ng-repeat="data in data.DropDown_Buttons2"><a href={{data.Button_Link}}> {{data.Button_Name}}</a></li>
+
+                  </ul>
+               </li>  
+
+
+              <li class="dropdown">
+                  <a id="dLabel" role="button" data-toggle="dropdown" data-target="#">Language Preferences<b class="caret"></b></a>
+                  <ul class="dropdown-menu dropdown-manual">
+                     
+                     <li id="English">English</li>
+                     <li id="French">French</li>
+                    
+                  </ul>
+              </li>
+
+          </div>
+          
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
+ </div>   

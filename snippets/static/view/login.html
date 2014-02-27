@@ -1,0 +1,134 @@
+<html><head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+      <script src="http://code.jquery.com/jquery-1.7.2.min.js"
+  type="text/javascript" xmlns="http://www.w3.org/1999/xhtml"> </script>
+<script src="/static/js/common.js" type="text/javascript"
+  xmlns="http://www.w3.org/1999/xhtml"> </script>
+
+      
+<!--    <link href="./css/bootstrap.css" type="text/css" rel="stylesheet" />-->
+    <div class="Header"><style>
+.dropdown-manual {
+   background-color: #000;
+   color:#fff;
+}
+</style>
+
+ <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand">NewRoz</div>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav pull-right">
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language Preferences<b class="caret"></b></a>
+                  <ul class="dropdown-menu dropdown-manual">
+                     
+                     <li id="English">English</li>
+                     <li id="French">French</li>
+                    
+                  </ul>
+              </li>
+
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<b class="caret"></b></a>
+                  <ul class="dropdown-menu dropdown-manual">
+                     
+                     <li id="LTR"> LTR </li>
+                    
+                     <li id="RTL"> RTL </li>
+                    
+                  </ul>
+              </li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </div><!-- /.navbar -->
+    </div>
+    <div class="Body"><style>
+.view1 {
+  margin-top: 130px;
+  background-color: #eee;
+  padding-bottom: 0px;
+}
+
+
+.form-signin {
+  max-width: 330px;
+  padding-top: -30px;
+  margin: 0 auto;
+  padding-top: 55px;
+  padding-bottom: 40px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+</style>
+
+
+
+
+
+
+<div class="container view1">
+   <form class="form-signin" role="form" action="/static/view/index.html" method = "post">
+      <h2 class="form-signin-heading">Self Care Portal Login</h2>
+      <input type="text" class="form-control" id="UserName" placeholder="Account ID" required="" autofocus="">
+      <div id="alert"></div>
+      <input type="password" class="form-control" id="Password" placeholder="Password" required="">
+      <div id="alert1"></div>
+      <label class="checkbox">
+      <input type="checkbox" value="remember-me"> Remember me
+      </label>
+      <button id="login" class="btn btn-lg btn-primary btn-block">Log in</button>
+   </form>
+</div>
+<!-- /container --></div>
+    <div class="Footer"> <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse" role="navigation">
+  <div class="container">
+    <p class="text-muted">© 2014 Newroz Inc. All Rights Reserved</p>
+  </div>
+
+</nav></div>
+<script src="/static/js/lib/bootstrap.js" type="text/javascript"
+  xmlns="http://www.w3.org/1999/xhtml"> </script> 
+  
+</body></html>
