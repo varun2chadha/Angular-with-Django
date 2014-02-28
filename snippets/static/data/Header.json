@@ -6,17 +6,12 @@
 		{
 		"Tab_name" : "Rating Plan",
 		"Tab_link" : "#",
-		"Class"	   : "active"
+		"Class"	   : "general"
 		},
 		{
 		"Tab_name" : "General Information",
 		"Tab_link" : "#/ratingplan",
-		"Class"	   : ""
-		},
-		{
-		"Tab_name" : "DashBoard",
-		"Tab_link" : "/#/dashBoard",
-		"Class"	   : ""
+		"Class"	   : "ratingPlan"
 		}
 	],
 

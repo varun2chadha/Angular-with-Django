@@ -51,7 +51,23 @@
 		<script src="../js/newroz.js" type="text/javascript" >	</script>
 		<script src="../js/newrozcmpt.js" type="text/javascript"> </script>
 		<script src="../js/controller.js" type="text/javascript" >	</script>
-		
+		<script src="../js/lib/polyglot.js" type="text/javascript" ></script>
+		<script>
+			var _locale="";
+			if(navigator.language==="en-US"){
+				_locale = 'en';
+			}
+			else if(navigator.language==="de"){
+				_locale= 'de';
+			}
+  			
+  			$.getJSON('/static/locales/' + _locale + '.json', function(data) {
+  				window.polyglot = new Polyglot({phrases: data});
+  			})
+  			
+			
+
+		</script>
 	</div> 
 
 

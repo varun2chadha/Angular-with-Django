@@ -42,11 +42,14 @@ body {
         font-size: 15px; 
  
     }
+    .my-class {
+        margin:50px;
+    }
 
-.Body {
-    margin-top: 40px;
-    padding-top: 15px;
-}
+    .Body {
+        margin-top: 40px;
+        padding-top: 15px;
+    }
 
 }
 
@@ -96,11 +99,19 @@ body {
 .table-nonfluid {
    width: auto;
 }
+
 .customerInfo .well {
         border-radius: 9px;
         padding-left: 10px;
         padding-right: 10px;
     }
+.table1 {
+    margin:0px;
+    padding-bottom: 0px;
+}
+.table2 {
+    padding-top: 5px;
+}
 
    .customerDetails {
       margin-top: 50px;
