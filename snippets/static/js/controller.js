@@ -1,8 +1,3 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
- 
 function customerController($scope, $http) {
     $http.get('/static/data/Rating_Plan.json').success(
         function (data) {
@@ -19,12 +14,10 @@ function tabController($scope, $http) {
         function (data) {
             $scope.data = data;
             $scope.trans = window.polyglot;
-            
+
         }
+
     );
-
-
-   
 
     $scope.rlconversion = function ($event) {
         var _id = $event.currentTarget.id;
@@ -60,6 +53,7 @@ function tabController($scope, $http) {
         })
     }
 }
+
 function footersController($scope, $http) {
     $http.get('/static/data/Footer.json').success(
         function (data) {
@@ -68,6 +62,7 @@ function footersController($scope, $http) {
         }
     );
 }
+
 function ratinPlanCtrl($scope, $http) {
     $http.get('/static/data/general-information.json').success(
         function (data) {

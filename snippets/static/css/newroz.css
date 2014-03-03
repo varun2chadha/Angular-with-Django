@@ -1,4 +1,6 @@
-
+.moreOptions {
+    color : #fff !important;
+}
 
 body {
     background-color: #eee;
@@ -58,6 +60,9 @@ body {
   margin-top: 45px;
   background-color: #eee;
   padding-bottom: 0px;
+}
+.customerInformation {
+    padding-left: 10px;
 }
 
 .form-signin {
