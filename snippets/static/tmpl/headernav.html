@@ -13,7 +13,7 @@
         <div class="collapse navbar-collapse">
           <ul  class="nav navbar-nav"  ng-repeat="data in data.Tab_Details" >
             
-            <li  data-toggle="collapse" data-target=".navbar-collapse" class = "tabs {{data.Class}}" ><a href={{data.Tab_link}}> {{ trans.t(data.Tab_name) }}</a></li>
+            <li  class = "tabs {{data.Class}}" ><a href={{data.Tab_link}}> {{ trans.t(data.Tab_name) }}</a></li>
            
           </ul>
           
@@ -34,7 +34,7 @@
                   LTR/RTL Preferences<span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-manual" role="menu" aria-labelledby="dLabel">
-                     <li data-toggle="collapse" data-target=".navbar-collapse" id={{data.Button_Name}} ng-click="rlconversion($event)" ng-repeat="data in data.DropDown_Buttons2">{{trans.t(data.Button_Name)}}</li>
+                     <li  id={{data.Button_Name}} ng-click="rlconversion($event)" ng-repeat="data in data.DropDown_Buttons2">{{trans.t(data.Button_Name)}}</li>
 
                   </ul>
                </li>  
@@ -44,8 +44,8 @@
                   <a id="dLabel" role="button" data-toggle="dropdown" data-target="#">Language Preferences<b class="caret"></b></a>
                   <ul class="dropdown-menu dropdown-manual">
                      
-                     <li data-toggle="collapse" data-target=".navbar-collapse" id="English" ng-click="englishConversion">English</li>
-                     <li data-toggle="collapse" data-target=".navbar-collapse" id="French" ng-click="frenchConversion">French</li>
+                     <li  id="English" ng-click="englishConversion">English</li>
+                     <li  id="French" ng-click="frenchConversion">French</li>
                     
                   </ul>
               </li>
