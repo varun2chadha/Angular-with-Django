@@ -1,83 +1,88 @@
-
-<div class="jumbotron span3 myResponsive my-class" ng-controller = "ratinPlanCtrl" >
-	<div class="row">
-		<div class="span12">
-			<span><strong><p>{{ trans.t(data.Rating_Plan.Header) }}</p></strong></span>
-		</div> 
-	</div>
-
-	<div><p>{{ trans.t(data.Rating_Plan.Description) }}</p></div>
-	<div><strong><p>{{ trans.t(data.Accounts.Header) }}</p></strong></div>
-
-	<div class="table-responsive">
-		<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
-			<thead>
-				<tr class="table_data">
-					
-					<th ng-repeat="data in data.Accounts.Header_TabName">{{ trans.t(data.Name) }}</th>
-				
-				</tr>
-			</thead>
-
-			<tbody>
-				
-				<tr class="table_data" ng-repeat="data in data.Accounts.Details">
-					<td><a href="#">{{ trans.t(data.ID) }}</a></td>
-					<td>{{ trans.t(data.Card_Number) }}</td>
-					<td>{{ trans.t(data.Profile) }}</td>
-					<td><a> <img src="../img/colour_green_button.png" style="">
-					</a> {{ trans.t(data.Life_Cycle) }}</td>
-					<td>{{ trans.t(data.End_Activity) }}</td>
-					<td>{{ trans.t(data.End_Inactiviy) }}</td>
-					<td>{{ trans.t(data.Balance) }}</td>
-				</tr>
-								
-			</tbody>
-		</table>
-	</div>
-
-	<div>
-		<div>
-			<span class="colorn_text"><strong><p>{{ trans.t(data.Rating_plan_info.Header) }}</p></strong></span>
-
-		</div>
-		<div class="alignment_text">
-			<div class="paddingw_data">
-				<span><p>{{ trans.t(data.Rating_plan_info.info) }}<p></span>
-			</div>
-			<div class="fontn_text"><p>{{ trans.t(data.Change_plan_info.Header1) }}</p></div>
-			<div class="log_text table_text" style="margin-top: 12px;"><p>{{ trans.t(data.Change_plan_info.Header2) }}</p></div>
-
-			<div class="table-responsive">
-				<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
-					<thead>
-						<tr class="table_data">
-							
-							<th ng-repeat="data in data.Change_plan_info.Tab_Header ">{{ trans.t(data.Name) }}</th>
-						
-						</tr>
-					</thead>
-					<tbody>
-						
-						<tr class="table_data" ng-repeat="data in data.Change_plan_info.Details">
-						<td>
-							<div class="radio">
-								<label>
-									<input type="radio" name="{{ data.Rating_plan_description }}" id="{{ data.Rating_plan_description }}" value="{{ data.Rating_plan_description }}" /> {{ trans.t(data.Rating_plan_description) }}
-								</label>
-							</div>
-						</td>
-						<td>{{ trans.t(data.Rating_plan_index) }}</td>
-						</tr>
-						
-					</tbody>
-				</table>
-			</div>
-
-			<div>
-				<button class="btn btn-primary">Apply</button>
-			</div>
-
-		</div>
-	</div>
+<div class="jumbotron span3 myResponsive my-class Loading" ng-controller = "ratinPlanCtrl" id="RatingPlan" style="background-color : #eee;">
+   <div class="row">
+      <div class="span12">
+         <span>
+            <strong>
+               <p>{{ trans.t(data.Rating_Plan.Header) }}</p>
+            </strong>
+         </span>
+      </div>
+   </div>
+   <div>
+      <p>{{ trans.t(data.Rating_Plan.Description) }}</p>
+   </div>
+   <div>
+      <strong>
+         <p>{{ trans.t(data.Accounts.Header) }}</p>
+      </strong>
+   </div>
+   <div class="table-responsive">
+      <table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+         <thead>
+            <tr class="table_data">
+               <th ng-repeat="data in data.Accounts.Header_TabName">{{ trans.t(data.Name) }}</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr class="table_data" ng-repeat="data in data.Accounts.Details">
+               <td><a href="#">{{ trans.t(data.ID) }}</a></td>
+               <td>{{ trans.t(data.Card_Number) }}</td>
+               <td>{{ trans.t(data.Profile) }}</td>
+               <td><a> <img src="../img/colour_green_button.png" style="">
+                  </a> {{ trans.t(data.Life_Cycle) }}
+               </td>
+               <td>{{ trans.t(data.End_Activity) }}</td>
+               <td>{{ trans.t(data.End_Inactiviy) }}</td>
+               <td>{{ trans.t(data.Balance) }}</td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+   <div>
+      <div>
+         <span class="colorn_text">
+            <strong>
+               <p>{{ trans.t(data.Rating_plan_info.Header) }}</p>
+            </strong>
+         </span>
+      </div>
+      <div class="alignment_text">
+         <div class="paddingw_data">
+            <span>
+               <p>{{ trans.t(data.Rating_plan_info.info) }}
+               <p>
+            </span>
+         </div>
+         <div class="fontn_text">
+            <p>{{ trans.t(data.Change_plan_info.Header1) }}</p>
+         </div>
+         <div class="log_text table_text" style="margin-top: 12px;">
+            <p>{{ trans.t(data.Change_plan_info.Header2) }}</p>
+         </div>
+         <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+               <thead>
+                  <tr class="table_data">
+                     <th ng-repeat="data in data.Change_plan_info.Tab_Header ">{{ trans.t(data.Name) }}</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="table_data" ng-repeat="data in data.Change_plan_info.Details">
+                     <td>
+                        <div class="radio">
+                           <label>
+                           <input type="radio" name="{{ data.Rating_plan_description }}" id="{{ data.Rating_plan_description }}" value="{{ data.Rating_plan_description }}" /> {{ trans.t(data.Rating_plan_description) }}
+                           </label>
+                        </div>
+                     </td>
+                     <td>{{ trans.t(data.Rating_plan_index) }}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div>
+            <button class="btn btn-primary">Apply</button>
+         </div>
+      </div>
+   </div>
 </div>

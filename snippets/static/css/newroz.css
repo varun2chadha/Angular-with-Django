@@ -1,12 +1,32 @@
 .moreOptions {
     color : #fff !important;
 }
-
+.Loading{ 
+      background-image:url('/static/img/ajax-loader.gif');
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background-position:center; 
+    }
 body {
     background-color: #eee;
 
 }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background-color : #428bca !important;
+}
 
+#RTL:hover {
+  background-color : #428bca !important;
+}
+#LTR:hover {
+  background-color : #428bca !important;
+}
+#English:hover {
+  background-color : #428bca !important;
+}
+#French:hover {
+  background-color : #428bca !important;
+}
 /** Responsive CSS**/
 
 @media (max-width: 768px) {

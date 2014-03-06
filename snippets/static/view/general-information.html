@@ -1,79 +1,71 @@
-<div class="row my-class" ng-controller="customerController" >
-	<div class="col-md-4">
-	<div class="jumbotron span3 myResponsive table1">
-	<div class="row">
-			<span><strong><p class="customerInformation">{{ trans.t(data.CustomerProfile.category1.name)}}</p></strong></span>
-		
-	</div>
-	<div class="table-responsive">
-		<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
-			<tbody>
-
-				
-					<tr class="table_data" ng-repeat = "user in data.CustomerProfile.category1.details">
-						<td>{{ trans.t(user.name) }}</td>
-						<td>{{ trans.t(user.value) }}</td>
-					</tr>
-			</tbody>
-		</table>
-	</div>
-
-</div>
-
-
-<div class="jumbotron span3 myResponsive table2">
-	<span><strong><p>{{ trans.t(data.CustomerProfile.category2.name)  }}</p></strong></span>
-
-
-	<div class="table-responsive">
-		<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
-			<tbody>
-			
-					<tr class="table_data" ng-repeat="user in data.CustomerProfile.category2.details">
-						<td>{{ trans.t(user.name) }}</td>
-						<td>{{ trans.t(user.value) }}</td>
-
-					</tr>
-     
-			</tbody>
-		</table>
-	</div>
-</div>
-</div>
-
-<div class="col-md-8">
-	<div class="jumbotron span3 myResponsive">
-		<div class="row">
-			<span><strong><p>{{ trans.t(data.CustomerProfile.category3.name)  }}</p></strong></span>
-		</div>
-	<div class="table-responsive">
-		<table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
-			<thead>
-				<tr class="table_data" >
-					
-						<th ng-repeat="user in data.CustomerProfile.category3.details">{{ trans.t(user.name) }}</th>
-
-				
-       
-        		</tr>
-			</thead>
-
-			<tbody>
-				
-					<tr class="table_data" ng-repeat="user in data.CustomerProfile.category3.details1">
-						<td>{{ trans.t(user.name) }}</td>
-						<td>{{ trans.t(user.value) }}</td>
-						<td>{{ trans.t(user.value1) }}</td>
-						<td>{{ trans.t(user.value2) }}</td>
-						<td>{{ trans.t(user.value3) }}</td>
-						<td>{{ trans.t(user.value4) }}</td>
-						<td>{{ trans.t(user.value5) }}</td>
-					</tr>
-      
-			</tbody>
-		</table>
-	</div>
-
-</div>
-</div>
+<div class="row my-class" ng-controller="customerController" id="GeneralInformation" class = "Loading" style="background-color : #eee;" >
+   <div class="col-md-4">
+      <div class="jumbotron span3 myResponsive table1">
+         <div class="row">
+            <span>
+               <strong>
+                  <p class="customerInformation">{{ trans.t(data.CustomerProfile.category1.name)}}</p>
+               </strong>
+            </span>
+         </div>
+         <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+               <tbody>
+                  <tr class="table_data" ng-repeat = "user in data.CustomerProfile.category1.details">
+                     <td>{{ trans.t(user.name) }}</td>
+                     <td>{{ trans.t(user.value) }}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div class="jumbotron span3 myResponsive table2">
+         <span>
+            <strong>
+               <p>{{ trans.t(data.CustomerProfile.category2.name)  }}</p>
+            </strong>
+         </span>
+         <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+               <tbody>
+                  <tr class="table_data" ng-repeat="user in data.CustomerProfile.category2.details">
+                     <td>{{ trans.t(user.name) }}</td>
+                     <td>{{ trans.t(user.value) }}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
+   <div class="col-md-8">
+      <div class="jumbotron span3 myResponsive">
+         <div class="row">
+            <span>
+               <strong>
+                  <p>{{ trans.t(data.CustomerProfile.category3.name)  }}</p>
+               </strong>
+            </span>
+         </div>
+         <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered table-condensed table-nonfluid">
+               <thead>
+                  <tr class="table_data" >
+                     <th ng-repeat="user in data.CustomerProfile.category3.details">{{ trans.t(user.name) }}</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr class="table_data" ng-repeat="user in data.CustomerProfile.category3.details1">
+                     <td>{{ trans.t(user.name) }}</td>
+                     <td>{{ trans.t(user.value) }}</td>
+                     <td>{{ trans.t(user.value1) }}</td>
+                     <td>{{ trans.t(user.value2) }}</td>
+                     <td>{{ trans.t(user.value3) }}</td>
+                     <td>{{ trans.t(user.value4) }}</td>
+                     <td>{{ trans.t(user.value5) }}</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </div>
 </div>

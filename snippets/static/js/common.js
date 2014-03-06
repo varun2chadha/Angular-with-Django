@@ -64,3 +64,10 @@ function unhide(divID) {
 		item.className = (item.className == 'hidden') ? 'unhidden' : 'hidden';
 	}
 }
+
+$(selector).click(function () {
+  //for close, opened dropdown.
+  if ($("navbar").hasClass("in")) {
+    $('[data-toggle="collapse"]').click();
+  }
+});

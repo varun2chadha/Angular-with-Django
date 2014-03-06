@@ -3,6 +3,7 @@ function customerController($scope, $http) {
         function (data) {
             $scope.data = data;
             $scope.trans = window.polyglot;
+            $('#GeneralInformation').removeClass('Loading');
         }
     );
 
@@ -68,6 +69,7 @@ function ratinPlanCtrl($scope, $http) {
         function (data) {
             $scope.data = data;
             $scope.trans = window.polyglot;
+            $('#RatingPlan').removeClass('Loading');
         }
     );
 }
