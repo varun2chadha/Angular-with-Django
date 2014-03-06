@@ -17,9 +17,9 @@ function tabController($scope, $http) {
             $scope.trans = window.polyglot;
 
         }
-
+    
     );
-
+    $scope.collapseNavbar=window.collapse;
     $scope.rlconversion = function ($event) {
         var _id = $event.currentTarget.id;
         if (_id == "RTL") {
@@ -33,6 +33,7 @@ function tabController($scope, $http) {
                 href: "/static/css/bootstrap.min.css"
             });
         }
+        window.collapse();
     }
 
     $scope.englishConversion = function ($event) {
@@ -43,6 +44,7 @@ function tabController($scope, $http) {
                 phrases: data
             });
         })
+        window.collapse();
     }
     $scope.frenchConversion = function ($event) {
         _locale = 'de';
@@ -53,6 +55,7 @@ function tabController($scope, $http) {
             });
         })
     }
+    window.collapse();
 }
 
 function footersController($scope, $http) {
