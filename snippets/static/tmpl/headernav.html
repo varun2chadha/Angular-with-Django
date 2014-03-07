@@ -10,7 +10,7 @@
             </button>
             <div class="navbar-brand">{{ trans.t(data.Company) }}</div>
          </div>
-         <div class="collapse navbar-collapse">
+         <div class="navbar-collapse collapse">
             <ul  class="nav navbar-nav"  ng-repeat="data in data.Tab_Details" >
                <li ng-click="collapseNavbar()" class = "tabs {{data.Class}}" ><a href={{data.Tab_link}}> {{ trans.t(data.Tab_name) }}</a></li>
             </ul>
@@ -34,8 +34,8 @@
                <li class="dropdown">
                   <a id="dLabel" role="button" data-toggle="dropdown" data-target="#">Language Preferences<b class="caret"></b></a>
                   <ul class="dropdown-menu dropdown-manual">
-                     <li  id="English" ng-click="englishConversion">English</li>
-                     <li  id="French" ng-click="frenchConversion">French</li>
+                     <li  id="English" ng-click="englishConversion()">English</li>
+                     <li  id="French" ng-click="frenchConversion()">French</li>
                   </ul>
                </li>
             </div>
